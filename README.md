@@ -141,12 +141,12 @@ To use GitHub to compare branches, change the URL to look like this:
 https://github.com/{user}/{repo}/compare/{range}
 ```
 
-where `{range} = master...4-1-stable`
+where `{range} = main...4-1-stable`
 
 For example:
 
 ```
-https://github.com/rails/rails/compare/master...4-1-stable
+https://github.com/rails/rails/compare/main...4-1-stable
 ```
 
 ![Rails branch compare example](http://i.imgur.com/tIRCOsK.png)
@@ -165,8 +165,8 @@ https://github.com/rails/rails/compare/master@{2014-10-04}...master
 Branches can also be compared in `diff` and `patch` views:
 
 ```
-https://github.com/rails/rails/compare/master...4-1-stable.diff
-https://github.com/rails/rails/compare/master...4-1-stable.patch
+https://github.com/rails/rails/compare/main...4-1-stable.diff
+https://github.com/rails/rails/compare/main...4-1-stable.patch
 ```
 
 [*Read more about comparing commits across time.*](https://docs.github.com/en/articles/comparing-commits-across-time/)
@@ -355,7 +355,7 @@ The top 5 used Emojis on GitHub are:
 Images and GIFs can be added to comments, READMEs etc.:
 
 ```
-![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
+![Alt Text](https://octodex.github.com/images/dojocat.jpg)
 ```
 
 Raw images from the repo can be used by calling them directly.:
@@ -364,7 +364,7 @@ Raw images from the repo can be used by calling them directly.:
 ![Alt Text](https://github.com/{user}/{repo}/raw/master/path/to/image.gif)
 ```
 
-![Peter don't care](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
+![Peter don't care](https://octodex.github.com/images/dojocat.jpg)
 
 All images are cached on GitHub, so if your host goes down, the image will remain available.
 
@@ -372,7 +372,7 @@ All images are cached on GitHub, so if your host goes down, the image will remai
 There are multiple ways of embedding images in Wiki pages. There's the standard Markdown syntax (shown above). But there's also a syntax that allows things like specifying the height or width of the image:
 
 ```markdown
-[[ http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif | height = 100px ]]
+[[ https://octodex.github.com/images/dojocat.jpg | height = 100px ]]
 ```
 
 Which produces:
@@ -612,7 +612,7 @@ You can define a template for all new pull requests opened in your project. The 
 ### Octicons
 GitHubs icons (Octicons) have now been open sourced.
 
-![Octicons](https://og.github.com/octicons/octicons@1200x630.png)
+![Octicons](https://github.com/primer/octicons/raw/main/docs/public/logo.svg)
 
 [*Read more about GitHub's Octicons*](https://octicons.github.com)
 
@@ -633,7 +633,7 @@ If you are a student you will be eligible for the GitHub Student Developer Pack.
 | GitHub Training | https://training.github.com/ |
 | GitHub Developer | https://docs.github.com/en/rest |
 | Github Education (Free Micro Account and other stuff for students) | https://education.github.com/ |
-| GitHub Best Practices | [Best Practices List](https://www.datree.io/resources/github-best-practices) |
+| GitHub Best Practices | [Best Practices List](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features) |
 
 #### GitHub Talks
 | Title | Link |
@@ -1027,7 +1027,7 @@ $ git config --global color.ui 1
 | ----- | ---- |
 | Official Git Site | https://git-scm.com/ |
 | Official Git Video Tutorials | https://git-scm.com/videos |
-| Code School Try Git | http://try.github.com/ |
+| Code School Try Git | https://skills.github.com/ |
 | Introductory Reference & Tutorial for Git | http://gitref.org/ |
 | Official Git Tutorial | https://git-scm.com/docs/gittutorial |
 | Everyday Git | https://git-scm.com/docs/everyday |
