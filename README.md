@@ -1,8 +1,6 @@
 # GitHub Cheat Sheet [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A collection of cool hidden and not so hidden features of Git and GitHub. This cheat sheet was inspired by [Zach Holman](https://github.com/holman)'s [Git and GitHub Secrets](http://confreaks.tv/videos/aloharuby2012-git-and-github-secrets) talk at Aloha Ruby Conference 2012 ([slides](https://speakerdeck.com/holman/git-and-github-secrets)) and his [More Git and GitHub Secrets](https://vimeo.com/72955426) talk at WDCNZ 2013 ([slides](https://speakerdeck.com/holman/more-git-and-github-secrets)).
 
-*Shortlink: [`http://git.io/sheet`](http://git.io/sheet)*
-
 *Read this in other languages: [English](README.md), [한국어](README.ko.md), [日本語](README.ja.md), [简体中文](README.zh-cn.md), [正體中文](README.zh-tw.md).*
 
 GitHub Cheat Sheet is sponsored by [Snapshot: create interactive professional-quality product photos using AI](https://www.snapshotapp.io/)
@@ -110,7 +108,7 @@ https://github.com/rails/rails/commits/master?author=dhh
 
 ![DHH commit history](http://i.imgur.com/S7AE29b.png)
 
-[*Read more about the differences between commits views.*](https://help.github.com/articles/differences-between-commit-views/)
+[*Read more about the differences between commits views.*](https://docs.github.com/en/articles/differences-between-commit-views/)
 
 ### Cloning a Repository
 When cloning a repository the `.git` can be left off the end.
@@ -119,7 +117,7 @@ When cloning a repository the `.git` can be left off the end.
 $ git clone https://github.com/tiimgreen/github-cheat-sheet
 ```
 
-[*Read more about the Git `clone` command.*](http://git-scm.com/docs/git-clone)
+[*Read more about the Git `clone` command.*](https://git-scm.com/docs/git-clone)
 
 ### Branch
 #### Compare all Branches to Another Branch
@@ -171,7 +169,7 @@ https://github.com/rails/rails/compare/master...4-1-stable.diff
 https://github.com/rails/rails/compare/master...4-1-stable.patch
 ```
 
-[*Read more about comparing commits across time.*](https://help.github.com/articles/comparing-commits-across-time/)
+[*Read more about comparing commits across time.*](https://docs.github.com/en/articles/comparing-commits-across-time/)
 
 #### Compare Branches across Forked Repositories
 To use GitHub to compare branches across forked repositories, change the URL to look like this:
@@ -213,24 +211,10 @@ Password for 'https://tiimgreen@gist.github.com':
 ```
 
 However, Gists do not support directories. All files need to be added to the repository root.
-[*Read more about creating Gists.*](https://help.github.com/articles/creating-gists/)
+[*Read more about creating Gists.*](https://docs.github.com/en/articles/creating-gists/)
 
 ### Git.io
-[Git.io](http://git.io) is a simple URL shortener for GitHub.
-
-![Git.io](http://i.imgur.com/6JUfbcG.png?1)
-
-You can also use it via pure HTTP using Curl:
-
-```bash
-$ curl -i http://git.io -F "url=https://github.com/..."
-HTTP/1.1 201 Created
-Location: http://git.io/abc123
-
-$ curl -i http://git.io/abc123
-HTTP/1.1 302 Found
-Location: https://github.com/...
-```
+> **Note:** Git.io was a simple URL shortener for GitHub, but the service was [deprecated in January 2022](https://github.blog/changelog/2022-01-11-git-io-deprecation/) and fully discontinued. Existing short URLs stopped working in April 2022.
 
 [*Read more about Git.io.*](https://github.com/blog/985-git-io-github-url-shortener)
 
@@ -247,7 +231,7 @@ To see all of the shortcuts for the current page press `?`:
 
 ![Keyboard shortcuts](http://i.imgur.com/y5ZfNEm.png)
 
-[Read more about search syntax you can use.](https://help.github.com/articles/search-syntax/)
+[Read more about search syntax you can use.](https://docs.github.com/en/articles/search-syntax/)
 
 ### Line Highlighting in Repositories
 Either adding, e.g., `#L52` to the end of a code file URL or simply clicking the line number will highlight that line number.
@@ -271,7 +255,7 @@ This closes the issue and references the closing commit.
 
 ![Closing Repo](http://i.imgur.com/Uh1gZdx.png)
 
-[*Read more about closing Issues via commit messages.*](https://help.github.com/articles/closing-issues-via-commit-messages/)
+[*Read more about closing Issues via commit messages.*](https://docs.github.com/en/articles/closing-issues-via-commit-messages/)
 
 ### Cross-Link Issues
 If you want to link to another issue in the same repository, simply type hash `#` then the issue number, and it will be auto-linked.
@@ -293,9 +277,9 @@ This means that users who are not collaborators on the project will no longer be
 
 
 ### CI Status on Pull Requests
-If set up correctly, every time you receive a Pull Request, [Travis CI](https://travis-ci.org/) will build that Pull Request just like it would every time you make a new commit. Read more about how to [get started with Travis CI](http://docs.travis-ci.com/user/getting-started/).
+If set up correctly, every time you receive a Pull Request, your CI system will build that Pull Request just like it would every time you make a new commit. GitHub's own [GitHub Actions](https://github.com/features/actions) is the recommended way to set up CI directly in your repository — no external service required.
 
-[![Travis CI status](https://cloud.githubusercontent.com/assets/1687642/2700187/3a88838c-c410-11e3-9a46-e65e2a0458cd.png)](https://github.com/octokit/octokit.rb/pull/452)
+[![GitHub Actions CI status](https://cloud.githubusercontent.com/assets/1687642/2700187/3a88838c-c410-11e3-9a46-e65e2a0458cd.png)](https://github.com/octokit/octokit.rb/pull/452)
 
 [*Read more about the commit status API.*](https://github.com/blog/1227-commit-status-api)
 
@@ -320,7 +304,7 @@ can also see merged pull requests.  Just put the following in the filter:
 
 `is:merged`
 
-[*Read more about searching issues.*](https://help.github.com/articles/searching-issues/)
+[*Read more about searching issues.*](https://docs.github.com/en/articles/searching-issues/)
 
 Finally, github now allows you to filter by the Status API's status.
 
@@ -351,7 +335,7 @@ puts table.to_s
 
 GitHub uses [Linguist](https://github.com/github/linguist) to perform language detection and syntax highlighting. You can find out which keywords are valid by perusing the [languages YAML file](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
 
-[*Read more about GitHub Flavored Markdown.*](https://help.github.com/articles/github-flavored-markdown/)
+[*Read more about GitHub Flavored Markdown.*](https://docs.github.com/en/articles/github-flavored-markdown/)
 
 ### Emojis
 Emojis can be added to Pull Requests, Issues, commit messages, repository descriptions, etc. using `:name_of_emoji:`.
@@ -404,13 +388,11 @@ When on a comment thread and you want to quote something someone previously said
 
 ### Pasting Clipboard Image to Comments
 
-_(Works on Chrome browsers only)_
-
-After taking a screenshot and adding it to the clipboard (mac: `cmd-ctrl-shift-4`), you can simply paste (`cmd-v / ctrl-v`) the image into the comment section and it will be auto-uploaded to github.
+After taking a screenshot and adding it to the clipboard (mac: `cmd-ctrl-shift-4`), you can simply paste (`cmd-v / ctrl-v`) the image into the comment section and it will be auto-uploaded to GitHub. This works in all modern browsers.
 
 ![Pasting Clipboard Image to Comments](https://cloud.githubusercontent.com/assets/39191/5794265/39c9b65a-9f1b-11e4-9bc7-04e41f59ea5f.png)
 
-[*Read more about issue attachments.*](https://help.github.com/articles/issue-attachments/)
+[*Read more about issue attachments.*](https://docs.github.com/en/articles/issue-attachments/)
 
 ### Quick Licensing
 When creating a repository, GitHub gives you the option of adding in a pre-made license:
@@ -423,7 +405,7 @@ You can also add them to existing repositories by creating a new file through th
 
 Also works for `.gitignore`.
 
-[*Read more about open source licensing.*](https://help.github.com/articles/open-source-licensing/)
+[*Read more about open source licensing.*](https://docs.github.com/en/articles/open-source-licensing/)
 
 ### Task Lists
 In Issues and Pull requests check boxes can be added with the following syntax (notice the space):
@@ -450,7 +432,7 @@ When they are clicked, they will be updated in the pure Markdown:
 - [ ] Sleep
 ```
 
-[*Read more about task lists.*](https://help.github.com/articles/writing-on-github/#task-lists)
+[*Read more about task lists.*](https://docs.github.com/en/articles/writing-on-github/#task-lists)
 
 #### Task Lists in Markdown Documents
 In full Markdown documents **read-only** checklists can now be added using the following syntax:
@@ -485,7 +467,7 @@ Relative links are recommended in your Markdown files when linking to internal c
 
 Absolute links have to be updated whenever the URL changes (e.g., repository renamed, username changed, project forked). Using relative links makes your documentation easily stand on its own.
 
-[*Read more about relative links.*](https://help.github.com/articles/relative-links-in-readmes/)
+[*Read more about relative links.*](https://docs.github.com/en/articles/relative-links-in-readmes/)
 
 ### Metadata and Plugin Support for GitHub Pages
 Within Jekyll pages and posts, repository information is available within the `site.github` namespace, and can be displayed, for example, using `{{ site.github.project_title }}`.
@@ -587,7 +569,7 @@ GitHub can display several common image formats, including PNG, JPG, GIF, and PS
 
 [![Diffable PSD](https://cloud.githubusercontent.com/assets/2546/3165594/55f2798a-eb56-11e3-92e7-b79ad791a697.gif)](https://github.com/blog/1845-psd-viewing-diffing)
 
-[*Read more about rendering and diffing images.*](https://help.github.com/articles/rendering-and-diffing-images/)
+[*Read more about rendering and diffing images.*](https://docs.github.com/en/articles/rendering-and-diffing-images/)
 
 ### Hub
 [Hub](https://github.com/github/hub) is a command line Git wrapper that gives you extra features and commands that make working with GitHub easier.
@@ -647,9 +629,9 @@ If you are a student you will be eligible for the GitHub Student Developer Pack.
 | ----- | ---- |
 | GitHub Explore | https://github.com/explore |
 | GitHub Blog | https://github.com/blog |
-| GitHub Help | https://help.github.com/ |
+| GitHub Help | https://docs.github.com/en |
 | GitHub Training | https://training.github.com/ |
-| GitHub Developer | https://developer.github.com/ |
+| GitHub Developer | https://docs.github.com/en/rest |
 | Github Education (Free Micro Account and other stuff for students) | https://education.github.com/ |
 | GitHub Best Practices | [Best Practices List](https://www.datree.io/resources/github-best-practices) |
 
@@ -738,7 +720,7 @@ $ git checkout -
 # Switched to branch 'master'
 ```
 
-[*Read more about Git branching.*](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
+[*Read more about Git branching.*](https://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 ### Stripspace
 
@@ -753,7 +735,7 @@ A file must be passed when calling the command, e.g.:
 $ git stripspace < README.md
 ```
 
-[*Read more about the Git `stripspace` command.*](http://git-scm.com/docs/git-stripspace)
+[*Read more about the Git `stripspace` command.*](https://git-scm.com/docs/git-stripspace)
 
 ### Checking out Pull Requests
 
@@ -808,7 +790,7 @@ git fetch origin
 git checkout pr/42
 ```
 
-[*Read more about checking out pull requests locally.*](https://help.github.com/articles/checking-out-pull-requests-locally/)
+[*Read more about checking out pull requests locally.*](https://docs.github.com/en/articles/checking-out-pull-requests-locally/)
 
 ### Empty Commits
 Commits can be pushed with no code changes by adding `--allow-empty`:
@@ -845,7 +827,7 @@ this is produced:
 
 ![git status -sb](http://i.imgur.com/K0OY3nm.png)
 
-[*Read more about the Git `status` command.*](http://git-scm.com/docs/git-status)
+[*Read more about the Git `status` command.*](https://git-scm.com/docs/git-status)
 
 ### Styled Git Log
 Running:
@@ -862,7 +844,7 @@ Credit to [Palesz](http://stackoverflow.com/users/88355/palesz)
 
 *This can be aliased using the instructions found [here](https://github.com/tiimgreen/github-cheat-sheet#aliases).*
 
-[*Read more about the Git `log` command.*](http://git-scm.com/docs/git-log)
+[*Read more about the Git `log` command.*](https://git-scm.com/docs/git-log)
 
 ### Git Query
 A Git query allows you to search all your previous commit messages and find the most recent one matching the query.
@@ -905,7 +887,7 @@ Use it like this:
  $ git grep -e pattern --and -e anotherpattern
 ```
 
-[*Read more about the Git `grep` command.*](http://git-scm.com/docs/git-grep)
+[*Read more about the Git `grep` command.*](https://git-scm.com/docs/git-grep)
 
 ### Merged Branches
 Running:
@@ -924,7 +906,7 @@ $ git branch --no-merged
 
 will give you a list of branches that have not been merged into your current branch.
 
-[*Read more about the Git `branch` command.*](http://git-scm.com/docs/git-branch)
+[*Read more about the Git `branch` command.*](https://git-scm.com/docs/git-branch)
 
 ### Fixup and Autosquash
 If there is something wrong with a previous commit (can be one or more from HEAD), for example `abcde`, run the following command after you've amended the problem:
@@ -932,8 +914,8 @@ If there is something wrong with a previous commit (can be one or more from HEAD
 $ git commit --fixup=abcde
 $ git rebase abcde^ --autosquash -i
 ```
-[*Read more about the Git `commit` command.*](http://git-scm.com/docs/git-commit)
-[*Read more about the Git `rebase` command.*](http://git-scm.com/docs/git-rebase)
+[*Read more about the Git `commit` command.*](https://git-scm.com/docs/git-commit)
+[*Read more about the Git `rebase` command.*](https://git-scm.com/docs/git-rebase)
 
 ### Web Server for Browsing Local Repositories
 Use the Git `instaweb` command to instantly browse your working repository in `gitweb`. This command is a simple script to set up `gitweb` and a web server for browsing the local repository.
@@ -946,7 +928,7 @@ opens:
 
 ![Git instaweb](http://i.imgur.com/Dxekmqc.png)
 
-[*Read more about the Git `instaweb` command.*](http://git-scm.com/docs/git-instaweb)
+[*Read more about the Git `instaweb` command.*](https://git-scm.com/docs/git-instaweb)
 
 ### Git Configurations
 Your `.gitconfig` file contains all your Git configurations.
@@ -1038,17 +1020,17 @@ To add more color to your Git output:
 $ git config --global color.ui 1
 ```
 
-[*Read more about the Git `config` command.*](http://git-scm.com/docs/git-config)
+[*Read more about the Git `config` command.*](https://git-scm.com/docs/git-config)
 
 ### Git Resources
 | Title | Link |
 | ----- | ---- |
-| Official Git Site | http://git-scm.com/ |
-| Official Git Video Tutorials | http://git-scm.com/videos |
+| Official Git Site | https://git-scm.com/ |
+| Official Git Video Tutorials | https://git-scm.com/videos |
 | Code School Try Git | http://try.github.com/ |
 | Introductory Reference & Tutorial for Git | http://gitref.org/ |
-| Official Git Tutorial | http://git-scm.com/docs/gittutorial |
-| Everyday Git | http://git-scm.com/docs/everyday |
+| Official Git Tutorial | https://git-scm.com/docs/gittutorial |
+| Everyday Git | https://git-scm.com/docs/everyday |
 | Git Immersion | http://gitimmersion.com/ |
 | Git God | https://github.com/gorosgobe/git-god |
 | Git for Computer Scientists | http://eagain.net/articles/git-for-computer-scientists/ |
@@ -1062,7 +1044,7 @@ $ git config --global color.ui 1
 | Title | Link |
 | ----- | ---- |
 | Pragmatic Version Control Using Git | https://pragprog.com/titles/tsgit/pragmatic-version-control-using-git |
-| Pro Git | http://git-scm.com/book |
+| Pro Git | https://git-scm.com/book |
 | Git Internals PluralSight | https://github.com/pluralsight/git-internals-pdf |
 | Git in the Trenches | http://cbx33.github.io/gitt/ |
 | Version Control with Git | http://www.amazon.com/Version-Control-Git-collaborative-development/dp/1449316387 |
