@@ -1,0 +1,667 @@
+[
+  {
+    "loc": 1,
+    "status": -1,
+    "link": "https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg",
+    "redirect": "",
+    "error": "Failed to open TCP connection to cdn.rawgit.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 2,
+    "status": -1,
+    "link": "https://speakerdeck.com/holman/more-git-and-github-secrets",
+    "redirect": "",
+    "error": "Failed to open TCP connection to speakerdeck.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 2,
+    "status": -1,
+    "link": "https://speakerdeck.com/holman/git-and-github-secrets",
+    "redirect": "",
+    "error": "Failed to open TCP connection to speakerdeck.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 2,
+    "status": -1,
+    "link": "http://confreaks.tv/videos/aloharuby2012-git-and-github-secrets",
+    "redirect": "",
+    "error": "Failed to open TCP connection to confreaks.tv:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 6,
+    "status": -1,
+    "link": "https://www.snapshotapp.io/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www.snapshotapp.io:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 87,
+    "status": 403,
+    "link": "https://camo.githubusercontent.com/797184940defadec00393e6559b835358a863eeb/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f776869746573706163652e706e67",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 96,
+    "status": -1,
+    "link": "http://i.imgur.com/GIT1Fr0.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 100,
+    "status": -1,
+    "link": "http://i.imgur.com/70FL4H9.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 109,
+    "status": -1,
+    "link": "http://i.imgur.com/S7AE29b.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 120,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-clone",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 120,
+    "status": -1,
+    "link": "https://git-scm.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 135,
+    "status": -1,
+    "link": "http://i.imgur.com/0FEe30z.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 149,
+    "status": 404,
+    "link": "https://github.com/rails/rails/compare/master...4-1-stable",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 152,
+    "status": -1,
+    "link": "http://i.imgur.com/tIRCOsK.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 163,
+    "status": -1,
+    "link": "http://i.imgur.com/5dtzESz.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 168,
+    "status": 404,
+    "link": "https://github.com/rails/rails/compare/master...4-1-stable.diff",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 169,
+    "status": 404,
+    "link": "https://github.com/rails/rails/compare/master...4-1-stable.patch",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 187,
+    "status": -1,
+    "link": "http://i.imgur.com/Q1W6qcB.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 190,
+    "status": -1,
+    "link": "https://gist.github.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to gist.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 190,
+    "status": -1,
+    "link": "https://gist.github.com",
+    "redirect": "",
+    "error": "Failed to open TCP connection to gist.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 192,
+    "status": -1,
+    "link": "http://i.imgur.com/VkKI1LC.png?1",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 194,
+    "status": -1,
+    "link": "https://gist.github.com/tiimgreen/10545817.pibb",
+    "redirect": "",
+    "error": "Failed to open TCP connection to gist.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 194,
+    "status": -1,
+    "link": "https://gist.github.com/tiimgreen/10545817",
+    "redirect": "",
+    "error": "Failed to open TCP connection to gist.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 202,
+    "status": -1,
+    "link": "http://i.imgur.com/BcFzabp.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 210,
+    "status": -1,
+    "link": "https://tiimgreen@gist.github.com",
+    "redirect": "",
+    "error": "Failed to open TCP connection to gist.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 217,
+    "status": -1,
+    "link": "https://github.blog/changelog/2022-01-11-git-io-deprecation/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to github.blog:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 232,
+    "status": -1,
+    "link": "http://i.imgur.com/y5ZfNEm.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 245,
+    "status": -1,
+    "link": "http://i.imgur.com/8AhjrCz.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 256,
+    "status": -1,
+    "link": "http://i.imgur.com/Uh1gZdx.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 265,
+    "status": 403,
+    "link": "https://camo.githubusercontent.com/447e39ab8d96b553cadc8d31799100190df230a8/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f7265666572656e6365732e706e67",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 343,
+    "status": -1,
+    "link": "http://www.emoji-cheat-sheet.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www.emoji-cheat-sheet.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 344,
+    "status": -1,
+    "link": "http://emoji.muan.co/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to emoji.muan.co:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 358,
+    "status": -1,
+    "link": "http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www.sheawong.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 380,
+    "status": -1,
+    "link": "http://i.imgur.com/J5bMf7S.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 385,
+    "status": -1,
+    "link": "https://f.cloud.github.com/assets/296432/124483/b0fa6204-6ef0-11e2-83c3-256c37fa7abc.gif",
+    "redirect": "",
+    "error": "Failed to open TCP connection to f.cloud.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 400,
+    "status": -1,
+    "link": "http://i.imgur.com/Chqj4Fg.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 404,
+    "status": -1,
+    "link": "http://i.imgur.com/fTjQict.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 422,
+    "status": -1,
+    "link": "http://i.imgur.com/jJBXhsY.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 480,
+    "status": -1,
+    "link": "http://jekyllrb.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to jekyllrb.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 480,
+    "status": -1,
+    "link": "https://pages.github.com",
+    "redirect": "",
+    "error": "Failed to open TCP connection to pages.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 482,
+    "status": 403,
+    "link": "https://camo.githubusercontent.com/47245aa16728e242f74a9a324ce0d24c0b916075/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f36343035302f313232383236372f65303439643063362d323761302d313165332d396464382d6131636432323539393334342e706e67",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 489,
+    "status": 403,
+    "link": "https://camo.githubusercontent.com/1b6dd0157ffb45d9939abf14233a0cb13b3b4dfe/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f3937363436322f33323038336463652d303638642d313165332d393262322d3566323863313061353035392e706e67",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 506,
+    "status": 403,
+    "link": "https://camo.githubusercontent.com/0d3350caf2bb1cba53123ffeafc00ca702b1b164/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f70756c6c5f72657175657374732f7265766572742d70756c6c2d726571756573742d6c696e6b2e706e67",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 514,
+    "status": -1,
+    "link": "https://github-images.s3.amazonaws.com/help/repository/rendered_prose_diff.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to github-images.s3.amazonaws.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 518,
+    "status": -1,
+    "link": "https://f.cloud.github.com/assets/17715/2003056/3997edb4-862b-11e3-90be-5e9586edecd7.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to f.cloud.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 525,
+    "status": -1,
+    "link": "https://f.cloud.github.com/assets/282759/2090660/63f2e45a-8e97-11e3-9d8b-d4c8078b004e.gif",
+    "redirect": "",
+    "error": "Failed to open TCP connection to f.cloud.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 532,
+    "status": -1,
+    "link": "https://f.cloud.github.com/assets/22635/1610539/863c1f64-5584-11e3-82bf-151b406a272f.gif",
+    "redirect": "",
+    "error": "Failed to open TCP connection to f.cloud.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 592,
+    "status": 403,
+    "link": "https://camo.githubusercontent.com/71995d6b0e620a9ef1ded00a04498241c69dd1bf/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f736b697463682f6973737565732d32303132303931332d3136323533392e6a7067",
+    "redirect": "",
+    "error": ""
+  },
+  {
+    "loc": 601,
+    "status": -1,
+    "link": "https://www.talater.com/open-source-templates/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www.talater.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 615,
+    "status": -1,
+    "link": "https://og.github.com/octicons/octicons@1200x630.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to og.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 617,
+    "status": -1,
+    "link": "https://octicons.github.com",
+    "redirect": "",
+    "error": "Failed to open TCP connection to octicons.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 623,
+    "status": -1,
+    "link": "http://i.imgur.com/9ru3K43.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 625,
+    "status": -1,
+    "link": "https://education.github.com/pack",
+    "redirect": "",
+    "error": "Failed to open TCP connection to education.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 625,
+    "status": -1,
+    "link": "https://education.github.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to education.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 633,
+    "status": -1,
+    "link": "https://training.github.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to training.github.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 636,
+    "status": -1,
+    "link": "https://www.datree.io/resources/github-best-practices",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www.datree.io:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 657,
+    "status": -1,
+    "link": "https://changelog.com/github-exposes-public-ssh-keys-for-its-users/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to changelog.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 673,
+    "status": -1,
+    "link": "https://i.postimg.cc/hGCrVm9F/Template.gif",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.postimg.cc:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 677,
+    "status": -1,
+    "link": "https://i.postimg.cc/L8PKCHx0/New-Template.gif",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.postimg.cc:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 679,
+    "status": -1,
+    "link": "https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to github.blog:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 723,
+    "status": -1,
+    "link": "https://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 723,
+    "status": -1,
+    "link": "https://git-scm.com/book",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 738,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-stripspace",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 818,
+    "status": -1,
+    "link": "http://i.imgur.com/qjPyvXb.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 828,
+    "status": -1,
+    "link": "http://i.imgur.com/K0OY3nm.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 830,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-status",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 841,
+    "status": -1,
+    "link": "http://i.imgur.com/58eOtkW.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 843,
+    "status": -1,
+    "link": "http://stackoverflow.com/users/88355/palesz",
+    "redirect": "",
+    "error": "Failed to open TCP connection to stackoverflow.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 847,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-log",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 861,
+    "status": -1,
+    "link": "http://i.imgur.com/icaGiNt.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 876,
+    "status": -1,
+    "link": "http://i.imgur.com/DL2zpQ9.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 890,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-grep",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 909,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-branch",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 917,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-commit",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 918,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-rebase",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 929,
+    "status": -1,
+    "link": "http://i.imgur.com/Dxekmqc.png",
+    "redirect": "",
+    "error": "Failed to open TCP connection to i.imgur.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 931,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-instaweb",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1023,
+    "status": -1,
+    "link": "https://git-scm.com/docs/git-config",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1029,
+    "status": -1,
+    "link": "https://git-scm.com/videos",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1030,
+    "status": -1,
+    "link": "http://try.github.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to try.github.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1031,
+    "status": -1,
+    "link": "http://gitref.org/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to gitref.org:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1032,
+    "status": -1,
+    "link": "https://git-scm.com/docs/gittutorial",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1033,
+    "status": -1,
+    "link": "https://git-scm.com/docs/everyday",
+    "redirect": "",
+    "error": "Failed to open TCP connection to git-scm.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1034,
+    "status": -1,
+    "link": "http://gitimmersion.com/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to gitimmersion.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1036,
+    "status": -1,
+    "link": "http://eagain.net/articles/git-for-computer-scientists/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to eagain.net:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1037,
+    "status": -1,
+    "link": "http://www-cs-students.stanford.edu/~blynn/gitmagic/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www-cs-students.stanford.edu:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1038,
+    "status": -1,
+    "link": "http://onlywei.github.io/explain-git-with-d3/#freeplay",
+    "redirect": "",
+    "error": "Failed to open TCP connection to onlywei.github.io:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1039,
+    "status": -1,
+    "link": "http://pcottle.github.io/learnGitBranching/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to pcottle.github.io:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1046,
+    "status": -1,
+    "link": "https://pragprog.com/titles/tsgit/pragmatic-version-control-using-git",
+    "redirect": "",
+    "error": "Failed to open TCP connection to pragprog.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1049,
+    "status": -1,
+    "link": "http://cbx33.github.io/gitt/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to cbx33.github.io:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1050,
+    "status": -1,
+    "link": "http://www.amazon.com/Version-Control-Git-collaborative-development/dp/1449316387",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www.amazon.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1051,
+    "status": -1,
+    "link": "https://pragprog.com/titles/pg_git/pragmatic-guide-to-git",
+    "redirect": "",
+    "error": "Failed to open TCP connection to pragprog.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1052,
+    "status": -1,
+    "link": "https://www.packtpub.com/application-development/git-version-control-everyone",
+    "redirect": "",
+    "error": "Failed to open TCP connection to www.packtpub.com:443 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1066,
+    "status": -1,
+    "link": "http://scottchacon.com/2011/08/31/github-flow.html",
+    "redirect": "",
+    "error": "Failed to open TCP connection to scottchacon.com:80 (getaddrinfo: No address associated with hostname)"
+  },
+  {
+    "loc": 1067,
+    "status": -1,
+    "link": "http://vooban.com/en/tips-articles-geek-stuff/migrating-to-git-lfs-for-developing-deep-learning-applications-with-large-files/",
+    "redirect": "",
+    "error": "Failed to open TCP connection to vooban.com:80 (getaddrinfo: No address associated with hostname)"
+  }
+]
